@@ -1,0 +1,28 @@
+.video{
+  padding: 350px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* opacity: 0.6; */
+}
+.video__text {
+    text-align: center;
+    font-size: 65px;
+    font-weight: 700;
+    color: #00524e;
+    position: relative;
+    z-index: 200;
+}
+@media(max-width:600px){
+  .video{
+    padding: 200px 0;
+  }
+  .video__text {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #00524e;
+    position: relative;
+    z-index: 200;
+}
+}
